@@ -24,7 +24,7 @@ function App() {
       {showCover ? (
         <div className="cover-container">
           {/* Cover image as background - Replace with your actual image path */}
-          <img src="/images/표지버츄.png" alt="Cover" className="cover-image" />
+          <img src="${process.env.PUBLIC_URL}/images/표지버츄.png" alt="Cover" className="cover-image" />
           
           {/* Today's Word button */}
           <div className="cover-button-container">
@@ -47,7 +47,7 @@ function App() {
             <div className="card">
               {/* Replace this with your actual card image */}
               <img 
-                src={`/images/image${currentCardIndex + 1}.jpg`} 
+                src={`${process.env.PUBLIC_URL}/images/image${currentCardIndex + 1}.jpg`} 
                 alt={`명상 카드 ${currentCardIndex + 1}`} 
                 className="card-image" 
               />
