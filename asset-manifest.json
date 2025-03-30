@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/buttu/static/css/main.0b77f395.css",
-    "main.js": "/buttu/static/js/main.87b3f0b9.js",
+    "main.js": "/buttu/static/js/main.c423691c.js",
     "static/js/453.e6c6ec74.chunk.js": "/buttu/static/js/453.e6c6ec74.chunk.js",
     "index.html": "/buttu/index.html",
     "main.0b77f395.css.map": "/buttu/static/css/main.0b77f395.css.map",
-    "main.87b3f0b9.js.map": "/buttu/static/js/main.87b3f0b9.js.map",
+    "main.c423691c.js.map": "/buttu/static/js/main.c423691c.js.map",
     "453.e6c6ec74.chunk.js.map": "/buttu/static/js/453.e6c6ec74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b77f395.css",
-    "static/js/main.87b3f0b9.js"
+    "static/js/main.c423691c.js"
   ]
 }
