@@ -61,7 +61,7 @@ function App() {
             justifyContent: 'center',
             marginBottom: '30px',
             boxShadow: '0 10px 30px rgba(0,0,0,0.3)',
-            backgroundImage: `url(${typeof process !== 'undefined' && process.env && process.env.PUBLIC_URL ? process.env.PUBLIC_URL : '/buttu'}/images/cover.png)`,
+            backgroundImage: `url(${(typeof process !== 'undefined' && process.env?.PUBLIC_URL) || '/buttu'}/images/cover.png)`,
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center'
@@ -275,7 +275,7 @@ function App() {
               transition: 'transform 0.3s ease'
             }}>
               <img 
-                src={`${typeof process !== 'undefined' && process.env && process.env.PUBLIC_URL ? process.env.PUBLIC_URL : '/buttu'}/images/image${currentCardIndex + 1}${currentCardIndex + 1 === 49 ? '.png' : '.jpg'}`} 
+                src={`${(typeof process !== 'undefined' && process.env?.PUBLIC_URL) || '/buttu'}/images/image${currentCardIndex + 1}${currentCardIndex + 1 === 49 ? '.png' : '.jpg'}`} 
                 alt={`명상 카드 ${currentCardIndex + 1}`} 
                 style={{
                   width: '100%',
