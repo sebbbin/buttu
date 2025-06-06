@@ -50,6 +50,18 @@ function App() {
           backgroundImage: 'linear-gradient(135deg, #F5DEB3 0%, #DEB887 100%)',
           padding: '20px'
         }}>
+          {/* Title */}
+          <h1 style={{
+            color: '#8B4513',
+            fontSize: '32px',
+            fontWeight: 'bold',
+            marginBottom: '20px',
+            textAlign: 'center',
+            textShadow: '2px 2px 4px rgba(0,0,0,0.1)'
+          }}>
+            불교 명상 카드
+          </h1>
+          
           {/* Cover image placeholder */}
           <div style={{
             width: '380px',
@@ -72,9 +84,11 @@ function App() {
           {/* Buttons */}
           <div style={{
             display: 'flex',
-            flexDirection: 'column',
-            gap: '15px',
-            alignItems: 'center'
+            flexDirection: 'row',
+            gap: '20px',
+            alignItems: 'center',
+            flexWrap: 'wrap',
+            justifyContent: 'center'
           }}>
             <button
               onClick={handleShowRandomCard}
@@ -89,7 +103,7 @@ function App() {
                 fontWeight: 'bold',
                 boxShadow: '0 5px 15px rgba(255,140,0,0.4)',
                 transition: 'all 0.3s ease',
-                minWidth: '200px'
+                minWidth: '160px'
               }}
               onMouseOver={(e) => {
                 e.target.style.transform = 'translateY(-2px)';
@@ -116,7 +130,7 @@ function App() {
                 fontWeight: 'bold',
                 boxShadow: '0 5px 15px rgba(218,165,32,0.4)',
                 transition: 'all 0.3s ease',
-                minWidth: '200px'
+                minWidth: '160px'
               }}
               onMouseOver={(e) => {
                 e.target.style.transform = 'translateY(-2px)';
