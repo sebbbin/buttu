@@ -148,12 +148,12 @@ function App() {
             padding: '20px'
           }}>
             
-            <p style={{
+            <h1 style={{
               color: '#A0522D',
-              fontSize: '16px'
+              fontSize: '25px'
             }}>
               원하는 카드 번호를 선택해주세요
-            </p>
+            </h1>
           </header>
           
           {/* Card grid */}
@@ -243,12 +243,6 @@ function App() {
             textAlign: 'center',
             marginBottom: '20px'
           }}>
-            <p style={{
-              color: '#A0522D',
-              fontSize: '16px'
-            }}>
-              {currentCardIndex + 1}번 카드
-            </p>
           </header>
           
           {/* Card display */}
