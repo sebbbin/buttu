@@ -50,17 +50,6 @@ function App() {
           backgroundImage: 'linear-gradient(135deg, #F5DEB3 0%, #DEB887 100%)',
           padding: '20px'
         }}>
-          {/* Title */}
-          <h1 style={{
-            color: '#8B4513',
-            fontSize: '32px',
-            fontWeight: 'bold',
-            marginBottom: '20px',
-            textAlign: 'center',
-            textShadow: '2px 2px 4px rgba(0,0,0,0.1)'
-          }}>
-            불교 명상 카드
-          </h1>
           
           {/* Cover image placeholder */}
           <div style={{
