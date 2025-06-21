@@ -147,13 +147,7 @@ function App() {
             marginBottom: '30px',
             padding: '20px'
           }}>
-            <h1 style={{
-              color: '#8B4513',
-              fontSize: '28px',
-              marginBottom: '10px'
-            }}>
-              불교 명상 카드 선택
-            </h1>
+            
             <p style={{
               color: '#A0522D',
               fontSize: '16px'
@@ -249,13 +243,6 @@ function App() {
             textAlign: 'center',
             marginBottom: '20px'
           }}>
-            <h1 style={{
-              color: '#8B4513',
-              fontSize: '24px',
-              marginBottom: '5px'
-            }}>
-              불교 명상 카드
-            </h1>
             <p style={{
               color: '#A0522D',
               fontSize: '16px'
