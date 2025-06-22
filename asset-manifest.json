@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/buttu/static/css/main.e6c13ad2.css",
+    "main.js": "/buttu/static/js/main.d552c3de.js",
+    "static/js/453.e6c6ec74.chunk.js": "/buttu/static/js/453.e6c6ec74.chunk.js",
+    "index.html": "/buttu/index.html",
+    "main.e6c13ad2.css.map": "/buttu/static/css/main.e6c13ad2.css.map",
+    "main.d552c3de.js.map": "/buttu/static/js/main.d552c3de.js.map",
+    "453.e6c6ec74.chunk.js.map": "/buttu/static/js/453.e6c6ec74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d552c3de.js"
+  ]
+}
